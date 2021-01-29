@@ -25,5 +25,5 @@ A quick description about your project
 
 ### Project Links
 - [Google Slides](https://docs.google.com/presentation/d/1Fpp4SIlXpLjkb4VIhvK8gis0hW8MqWtwSW1EsBsEtuU/edit?usp=sharing)
-- [Figma Prototypes](https://www.figma.com/file/yGLNPz26ujDL2sgLtA0bBT/Unique-Diva-Princess-Love?node-id=568%3A53041)
+- [Figma Prototypes](https://www.figma.com/file/yGLNPz26ujDL2sgLtA0bBT/Unique-Diva-Princess-Love?node-id=568%3A53041) (https://www.figma.com/file/yGLNPz26ujDL2sgLtA0bBT/Unique-Diva-Princess-Love?node-id=263%3A23059)
 - [Live Web Page](https://username.github.io/UX_UI_PROJECT_3/)

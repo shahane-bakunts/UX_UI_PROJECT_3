@@ -1,0 +1,28 @@
+#navigation {
+    display: flex;
+  }
+  .app-logo{
+      height:50px;
+  }
+  .navbar{
+      width: 100%
+    }
+  
+    .navbar-nav a{
+      color:#090909 !important;
+    }
+    .navbar-nav a:hover{
+      color: #725ABD!important;
+    }
+    
+    *:focus {
+      outline: none;
+      border: 1px solid blue;
+      border-radius: 10px;
+      box-shadow: (0 0 0 3px #271458);
+    }
+    @media only screen and (max-width: 900px) {
+      .navbar{
+          margin:20px 50px 50px 50px;
+        }
+    }
