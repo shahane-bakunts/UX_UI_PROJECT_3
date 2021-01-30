@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../UX-UI-Homework-20"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "UX_UI_PROJECT_3"
+	}
+}
