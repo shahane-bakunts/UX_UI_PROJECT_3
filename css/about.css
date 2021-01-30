@@ -1,0 +1,67 @@
+body, p{
+    margin:0px!important;
+    font-family: Arial Rounded MT, Helvetica Rounded,Arial,sans-serif; 
+}
+
+.thumbnail{
+margin:30px 30px ;
+border-radius:20px;
+width: 80%;
+}
+.shadow{
+    box-shadow: 5px 0px 40px #725ABD;
+    border-radius:20px;
+}
+
+.shadow p{
+    justify-content: start!important;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+/* .bold p{
+    font-weight: bold;
+} */
+.thumbnail img{
+    height: 240px;
+    margin-bottom:32px;
+}
+
+#myweirdshape{
+    clip-path: polygon(0 10%, 150% 0, 170% 162%, 0 52%);
+    background-image: linear-gradient( #9563D6, #8059D3);
+}
+
+.btn{
+    background-image: linear-gradient( #F5C13C, #FF9900);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding:14px 50px!important;
+}
+.about{
+    color: white;
+    margin-top: 50px; 
+    margin-bottom:100px;
+}
+/* div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+
+  \.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  } */
