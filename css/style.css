@@ -35,14 +35,14 @@ text-align: center;
     z-index: 1; */
 }
 .learn-more1{
-    background:url("images/Component1.png");
+    background:url("/images/Component1.png");
   color: #725ABD;  
   border-radius: 5px;
   height:78px;
   width: 265px;
 }
 .learn-more2{
-    background:url("images/Component2.png");
+    background:url("../images/Component2.png");
     color: #725ABD;  
     border-radius: 5px;
     height:78px;
