@@ -1,22 +1,38 @@
-.container{
+body{
     margin:0px!important;
+    font-family: Arial Rounded MT, Helvetica Rounded,Arial,sans-serif; 
+}
+.container-fluid{
+    /* margin:0px!important; */
     width: 100%;
+    /* padding: 0px!important; */
+}
+    .row{
+    /* margin:0px!important; */
+    --bs-gutter-x: 0px;
 }
 
-    .row{
-    padding-top:32px 200px;
-}
-.hero-header{
-    background-image: url("/images/Hero-header.svg");
-    background-repeat: no-repeat;
-  
+
+
+.padding-left-right{
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 .hero-text{
 margin-top:100px;
 color:white;
 }
+
 .feature-icon, .align-center{
 text-align: center;
+}
+.buttons{
+    margin-left: 100px;
+    margin-top:40px;
+    /* position: relative;
+    z-index: 1; */
 }
 .learn-more1{
     background:url("/images/Component1.png");
@@ -24,7 +40,6 @@ text-align: center;
   border-radius: 5px;
   height:78px;
   width: 265px;
-  margin-top:150px;
 }
 .learn-more2{
     background:url("/images/Component2.png");
@@ -32,14 +47,13 @@ text-align: center;
     border-radius: 5px;
     height:78px;
     width: 265px;
-    margin-top:150px;
 }
 .mockup-mix{
     background-image: linear-gradient( #F5C13C, #FF9900);
     width: 100%;
 }
 .img-responsive{
-height:653.31px;
+height:550px;
 }
 .swicon{
     height: 156px;
@@ -59,6 +73,7 @@ height:653.31px;
 }
 .orange-gradient{
     background-image: linear-gradient( #F5C13C, #FF9900);
+    width: 100%;
 }
 .purple-gradient{
     background-image: linear-gradient( #9563D6, #8059D3);
@@ -66,9 +81,21 @@ height:653.31px;
 .feature-text{
     margin-top:100px;
 }
-.testim-text{
-margin-top:30%;
+.padding-top-bottom{
+    padding-top:100px;
+    padding-bottom: 100px;
 }
+.testim-text{
+margin-top:10%;
+padding-left: 200px;
+padding-right: 50px;
+}
+.quote1, .quote2{
+  height:40px;
+    }
+    .quote2{
+        margin-left: 200px;
+    }
 .testim-image img{
    height: 518px;
    background-image: linear-gradient( #F5C13C, #FF9900);
@@ -91,3 +118,18 @@ padding-top: 35px;
 border:1px solid grey;
 color:linear-gradient( #9563D6, #8059D3);
 }
+#myweirdshape{
+    clip-path: polygon(0 1%, 100% 0, 100% 62%, 0 52%);
+    background-image: linear-gradient( #9563D6, #8059D3);
+}
+/* #myweirdshape{
+        width: 0px;
+        height: 0px;
+        border-left: 0px solid #8059D3;
+        border-right: 1440px solid #8059D3;
+        border-top:200px solid #8059D3;
+        border-bottom: 150px solid transparent;
+        position: relative;
+     
+      }
+       */

@@ -1,11 +1,27 @@
+body{
+    margin:0px!important;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded,Arial,sans-serif; 
+}
 #navigation {
     display: flex;
-  }
+}
   .app-logo{
       height:50px;
+      
+  }
+  .swift-main{
+    color:#725ABD;
+    font-size:48px;
+    font-family: 'Damion', cursive;
   }
   .navbar{
-      width: 100%
+      width: 100%;
+      margin-left:200px;
+      margin-right:200px;
+
+    }
+    #navbarNav{
+     align-content: flex-end;
     }
   
     .navbar-nav a{
