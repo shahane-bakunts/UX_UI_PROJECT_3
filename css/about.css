@@ -4,9 +4,9 @@ body, p{
 }
 
 .thumbnail{
-margin:30px 30px ;
+margin:50px 100px ;
 border-radius:20px;
-width: 80%;
+width: 90%;
 }
 
 .shadow {
@@ -29,14 +29,9 @@ h5{
 .thumbnail img{
     height: 240px;
     margin-bottom: -80px;
-    margin-left: -25%;
+    /* margin-left: -25%; */
     border-radius: 50px;
 }
-/* .card-img-top{
-  border-radius: 50px;
-    margin-bottom: -80px;
-    border-radius: 50px;
-} */
 
 #myweirdshape{
  clip-path: polygon(0 0, 100% 0, 100% 83%, 1% 100%);
@@ -52,18 +47,22 @@ margin-bottom: -450px!important;
     background-image: linear-gradient( #F5C13C, #FF9900);
     margin-top: 32px;
     margin-bottom: 32px;
-    padding:14px 50px!important;
+    padding:14px 100px!important;
+   
+  
 }
 
 .about h2{
   color: white;
   margin-top:50px; 
   margin-bottom:550px;
+  justify-self: left;
 }
 
   .social {
       float: left;
-      margin-right: 10px;
+      margin-right: 20px;
+     
       margin-top: 200px!important;
       margin-bottom: 200px!important;
 }
@@ -77,26 +76,3 @@ ul{
 li{
   margin-bottom: 20px;
 }
-/* div.polaroid {
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-  }
-  
-  div.container {
-    padding: 10px;
-  }
-
-  \.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 10%;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 2px 16px;
-  } */
