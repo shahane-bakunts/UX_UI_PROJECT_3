@@ -24,15 +24,17 @@ body{
 margin-top:100px;
 color:white;
 }
-
+.feature-icon{
+    margin-top:400px;
+}
 .feature-icon, .align-center{
 text-align: center;
 }
 .buttons{
     margin-left: 100px;
     margin-top:40px;
-    /* position: relative;
-    z-index: 1; */
+    position: relative;
+    z-index: 999999;
 }
 .learn-more1{
     background:url("../images/Component1.png");
@@ -80,9 +82,10 @@ height:550px;
 }
 .feature-text{
     margin-top:100px;
+    width: 80%;
 }
 .padding-top-bottom{
-    padding-top:100px;
+    margin-top:-8%;
     padding-bottom: 100px;
 }
 .testim-text{
@@ -122,23 +125,21 @@ color:linear-gradient( #9563D6, #8059D3);
     clip-path: polygon(0 1%, 100% 0, 100% 62%, 0 52%);
     background-image: linear-gradient( #9563D6, #8059D3);
 }
-/* #myweirdshape{
-        width: 0px;
-        height: 0px;
-        border-left: 0px solid #8059D3;
-        border-right: 1440px solid #8059D3;
-        border-top:200px solid #8059D3;
-        border-bottom: 150px solid transparent;
-        position: relative;
-     
+
+
+       ul{
+        list-style-type: none;
       }
-       */
 
 
 /* icons */
-       .fa-star{
-           color:#9563D6;
-           padding-right:2px;
 
+       .icon-purple{
+           color:#9563D6;
+           padding-right:10px;
        }
+    .icon-orange{
+        color:#FF9900;
+        padding-right:10px
+    }
        
