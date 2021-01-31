@@ -1,5 +1,28 @@
-.about{
+.contact-us{
     color: white;
     margin-top: 50px; 
-    margin-bottom:100px;
+
 }
+.contact-us h2{
+  color: white;
+  margin-top:50px; 
+  margin-bottom:550px;
+}
+
+#myweirdshape{
+    clip-path: polygon(0 0, 100% 0, 100% 8%, 0 28%);
+    background-image: linear-gradient( #9563D6, #8059D3);
+}
+.btn-default{
+    background-image: linear-gradient( #F5C13C, #FF9900);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding:14px 50px!important;
+    width: 50%;
+}
+.form-control{
+    margin-top: 10px;
+}
+.margin-bottom-minus{
+    margin-bottom: -400px!important;
+    }
