@@ -6,7 +6,7 @@ body, p{
 .thumbnail{
 margin:50px 100px ;
 border-radius:20px;
-width: 90%;
+width:90%;
 }
 
 .shadow {
@@ -62,7 +62,6 @@ margin-bottom: -450px!important;
   .social {
       float: left;
       margin-right: 20px;
-     
       margin-top: 200px!important;
       margin-bottom: 200px!important;
 }
