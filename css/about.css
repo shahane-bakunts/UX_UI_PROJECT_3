@@ -1,10 +1,13 @@
-body, p{
+body{
     margin:0px!important;
-    font-family: Arial Rounded MT, Helvetica Rounded,Arial,sans-serif; 
+  
+}
+body,p{
+  font-family: Arial Rounded MT, Helvetica Rounded,Arial,sans-serif; 
 }
 
 .thumbnail{
-margin:50px 100px ;
+
 border-radius:20px;
 width:90%;
 }
@@ -57,6 +60,11 @@ margin-bottom: -450px!important;
   margin-top:50px; 
   margin-bottom:550px;
   justify-self: left;
+}
+.about-text p{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
   .social {
