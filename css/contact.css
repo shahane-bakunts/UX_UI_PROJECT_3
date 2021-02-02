@@ -31,3 +31,19 @@
     .width70{
        width: 100%;
     }
+
+    @media (max-width: 600px) {
+
+        @media (max-width: 575.98px) { 
+            .padding-left-right{
+                padding-left:0px;
+                padding-right:0px;}
+        .btn-default{
+            background-image: linear-gradient( #F5C13C, #FF9900);
+         
+            width: 60%;
+        }
+
+     }
+
+

@@ -83,3 +83,24 @@ ul{
 li{
   margin-bottom: 20px;
 }
+
+
+@media (max-width: 600px) { 
+  .padding-left-right{
+      padding-left:50px;
+      padding-right:50px;}
+
+      .btn-portfolio{
+        padding:14px 70px!important;
+     
+    }
+    .thumbnail {
+
+margin-bottom: 100px;
+      border-radius: 50px;
+  }
+  .about-text p{
+    width: 100%;
+  }
+  }
+
