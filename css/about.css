@@ -29,11 +29,12 @@ h5{
 /* .bold p{
     font-weight: bold;
 } */
-.thumbnail img{
-    height: 240px;
-    margin-bottom: -80px;
-    /* margin-left: -25%; */
-    border-radius: 50px;
+
+.img-respons{
+ width:50%;
+ margin-bottom: -80px;
+ /* margin-left: -25%; */
+ border-radius: 50px;
 }
 
 #myweirdshape{
@@ -94,20 +95,35 @@ li{
  padding-right:50px;
   }
   .thumbnail{
- margin-top:32px;
+    margin-top:32px;
+    margin-left:50px
  
   }
-  .social {
-    float: left;
-    margin-right: 20px;
-    margin-top: 100px!important;
-    margin-bottom: 50px!important;
+  .img-respons{
+  width: 50%;
+
 }
-      .btn-portfolio{
+  .social {
   
-     
-    }
+    margin-right: 20px;
+    margin-bottom: 100px!important;
+}
   .about-text p{
     width: 90%;
   }
-  } 
+  .btn-portfolio{
+
+    padding:14px 50px!important;
+  
+}
+.social {
+
+  margin-right: 50px;
+}
+.col-md-12{
+  width: 90%;
+  }
+  li{
+    margin-bottom: 10px;
+  }
+}
