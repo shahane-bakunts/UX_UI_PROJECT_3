@@ -7,7 +7,7 @@ body,p{
 }
 
 .thumbnail{
-
+/* margin-bottom: 40px; */
 border-radius:20px;
 width:90%;
 }
@@ -85,10 +85,15 @@ li{
 }
 
 
-@media (max-width: 600px) { 
+
+
+
+/* @media (max-width: 375px) { 
   .padding-left-right{
-      padding-left:50px;
-      padding-right:50px;}
+     
+ padding-left:50px;
+ padding-right:50px;
+  }
 
       .btn-portfolio{
         padding:14px 70px!important;
@@ -96,11 +101,9 @@ li{
     }
     .thumbnail {
 
-margin-bottom: 100px;
       border-radius: 50px;
   }
   .about-text p{
     width: 100%;
   }
-  }
-
+  } */

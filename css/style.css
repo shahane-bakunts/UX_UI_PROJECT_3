@@ -21,8 +21,8 @@ body{
     padding-bottom:40px;
 }
 .hero-text{
-margin-top:100px;
 color:white;
+padding:100px 0px 0px 200px;
 }
 .feature-icon{
     margin-top:400px;
@@ -101,6 +101,7 @@ padding-right: 50px;
     }
 .testim-image img{
    height: 518px;
+ 
    background-image: linear-gradient( #F5C13C, #FF9900);
   
     }
@@ -145,12 +146,48 @@ color:linear-gradient( #9563D6, #8059D3);
        
 
     /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 900px) { 
     .padding-left-right{
-        padding-left:0px;
-        padding-right:0px;
+        padding-left:50px;
+        padding-right:50px;
+    }
+    .quote1{
+        margin-left: 50px;
+        margin-right: 50px;
+        }
 
+        .hero-text{
+            color:white;
+            padding:100px 50px 0px 50px;
+            }
+.testim-text {
+    margin-top: 5%;
+    padding-left: 50px;
+    padding-right: 50px;}
 
+    .testim-image img{
+        height: 345px;
+         }
+         .padding-top-bottom{
+            margin-top:10%;
+            padding-bottom: 100px;
+        }
+        .swicon{
+            margin-bottom:50px;
+        }
+        .buttons{
+            margin-left: 50px;
+            margin-top:40px;
+            position: relative;
+            z-index: 999999;
+        }
+        /* .app-hero-mockup{
+            margin-bottom:700px;
+        } */
+        #myweirdshape{
+            clip-path:none;
+            background-image: linear-gradient( #9563D6, #8059D3);
+        }
  }
 
 // Small devices (landscape phones, less than 768px)
