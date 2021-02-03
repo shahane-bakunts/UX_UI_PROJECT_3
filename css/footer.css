@@ -36,7 +36,7 @@ body{
    flex-direction: row;
    justify-content: center;
 }
-.navbar-nav a{
+.footer-nav a{
     color: white!important;
  }
 .nav-item{
@@ -111,10 +111,10 @@ li a{
 }
 .newslater{
     color:white;
-    margin-top:25%;
-    margin-left:50px;
     margin-right:50px;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top:50%;
+    margin-left:50px;
 }
 .swift{
     color:#FFBD3E;
@@ -129,12 +129,12 @@ li a{
     text-align: center;
     
 }
-.newslater{
-    color:white;
-    margin-top:50%;
-    margin-left:50px;
-}
+
 .form-inline{
    width: 90%;
+}
+.learn-more1, .learn-more2{
+    margin:5px;
+  
 }
 }
