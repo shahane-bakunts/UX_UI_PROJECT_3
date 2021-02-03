@@ -91,8 +91,8 @@ li{
 @media (max-width: 900px) { 
   .padding-left-right{
      
- padding-left:50px;
- padding-right:50px;
+ padding-left:32px;
+ padding-right:32px;
   }
   .thumbnail{
     margin-top:32px;
@@ -104,8 +104,8 @@ li{
 
 }
   .social {
-  
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 100px!important;
 }
   .about-text p{
@@ -118,12 +118,15 @@ li{
 }
 .social {
 
-  margin-right: 50px;
+  margin-right: 20px;
 }
-.col-md-12{
-  width: 90%;
-  }
+
   li{
     margin-bottom: 10px;
   }
+
+  .thumbnail{
+  
+    width:75%;
+    }
 }

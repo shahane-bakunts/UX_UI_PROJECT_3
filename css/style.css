@@ -188,6 +188,22 @@ color:linear-gradient( #9563D6, #8059D3);
             clip-path:none;
             background-image: linear-gradient( #9563D6, #8059D3);
         }
+        .feature-text{
+        margin-top: 50px;
+            width: 100%;
+        }
+        .hero-text{
+            color:white;
+            padding:50px  50px 32px  50px;
+            }
+            .buttons{
+                margin-left: 50px;
+                margin-bottom:40px;
+             
+            }
+            .hero-image{
+                display: none;
+            }
  }
 
 // Small devices (landscape phones, less than 768px)
