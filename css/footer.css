@@ -1,132 +1,130 @@
-body{
-    margin:0px!important;
+body {
+margin: 0px !important;
 }
-.container-fluid{
-    margin:0px!important;
-    padding: 0px;
-   
+.container-fluid {
+margin: 0px !important;
+padding: 0px;
 }
-.hero-footer{
-    clip-path: polygon(0 0, 100% 57%, 100% 100%, 0 100%);
-    background-image: linear-gradient( #9563D6, #8059D3);
-    position: relative;
-    width: 100%;
-  
+.hero-footer {
+clip-path: polygon(0 0, 100% 57%, 100% 100%, 0 100%);
+background-image: linear-gradient(#9563d6, #8059d3);
+position: relative;
+width: 100%;
 }
-.footer-button-z{
-    position: absolute;
-    z-index: 10000;
-    margin-top:20px;
-    margin-left: 50%;
-    
+.footer-button-z {
+position: absolute;
+z-index: 10000;
+margin-top: 20px;
+margin-left: 50%;
 }
-.learn-more1, .learn-more2{
-    margin:0px;
-  
+.learn-more1,
+.learn-more2 {
+margin: 0px;
 }
 /* h2{
-    margin-left: 100px;
+margin-left: 100px;
 } */
-.newslater{
-    color:white;
-    margin-top:25%;
-    margin-left:200px;
+.newslater {
+color: white;
+margin-top: 25%;
+margin-left: 200px;
 }
-.navbar-nav{
-   flex-direction: row;
-   justify-content: center;
+.navbar-nav {
+flex-direction: row;
+justify-content: center;
 }
-.footer-nav a{
-    color: white!important;
- }
-.nav-item{
-    padding-right: 20px;
+.footer-nav a {
+color: white !important;
 }
-li a{
-    color:white!important;
+.nav-item {
+padding-right: 20px;
 }
-.footer-center{
-    color: white;
+li a {
+color: white !important;
 }
-.swift{
-    color:#FFBD3E;
-    font-size:48px;
-    font-family: 'Damion', cursive;
-
+.footer-center {
+color: white;
 }
-
+.swift {
+color: #ffbd3e;
+font-size: 48px;
+font-family: "Damion", cursive;
+}
 
 /* form {
-  
-   display:inline-block;
-  } */
-  
-  /* .container {
-    padding: 20px;
-    background-color: #f1f1f1;
-  } */
-  
-  /* input[type=text], input[type=submit] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
 
-  
-  input[type=submit] {
-    background-color: white;
-    color: #8059D3;
-    border: none;
-    display: inline-block;
-  }
-  
-  input[type=submit]:hover {
-    opacity: 0.8;
-  } */
+display:inline-block;
+} */
 
-  .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
-    z-index: 2;
-    margin-left: 10px;
+/* .container {
+padding: 20px;
+background-color: #f1f1f1;
+} */
 
-    /* color:white; */
+/* input[type=text], input[type=submit] {
+width: 100%;
+padding: 12px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
 }
-.btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-    color: #212529;
-    background-color: white;
-    border-color: white;
+
+
+input[type=submit] {
+background-color: white;
+color: #8059D3;
+border: none;
+display: inline-block;
+}
+
+input[type=submit]:hover {
+opacity: 0.8;
+} */
+
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
+z-index: 2;
+margin-left: 10px;
+
+/* color:white; */
+}
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+color: #212529;
+background-color: white;
+border-color: white;
 }
 /* .btn{
-    border-top-left-radius: 3px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
+border-top-left-radius: 3px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 0.25rem;
+border-bottom-left-radius: 0.25rem;
 } */
-@media (max-width: 900px) { 
-.hero-footer{
-    clip-path:none;
-    background-image: linear-gradient( #9563D6, #8059D3);
+@media (max-width: 900px) {
+.hero-footer {
+clip-path: none;
+background-image: linear-gradient(#9563d6, #8059d3);
 }
-.newslater{
-    display: none;
+.newslater {
+display: none;
 }
-.swift{
-    color:#FFBD3E;
-    font-size:24px;
-    font-family: 'Damion', cursive;
+.swift {
+color: #ffbd3e;
+font-size: 24px;
+font-family: "Damion", cursive;
+}
+.footer-button-z {
+display: none;
+}
 
+.form-inline {
+width: 90%;
 }
-.footer-button-z{
-   display: none;
-}
-
-.form-inline{
-   width: 90%;
-}
-.learn-more1, .learn-more2{
-    margin:5px;
-  
+.learn-more1,
+.learn-more2 {
+margin: 5px;
 }
 }

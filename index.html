@@ -1,178 +1,239 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css" />
   
-    <link rel="stylesheet" href="css/style.css" />
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://www.cssfontstack.com/Arial-Rounded-MT-Bold">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://www.cssfontstack.com/Arial-Rounded-MT-Bold">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <!--  -->
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <title>Swift list</title>
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-    crossorigin="anonymous"
-  ></script>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<!--  -->
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="shortcut icon" type="image/jpg" href="images/logo.png"/>
+<title>Swift list</title>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"
+></script>
 </head>
 <body>
 
- <!-- Navigation-->
+<!-- Navigation-->
 
-  <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <div class="col-lg-1 col-md-1 col-sm-1">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" class="app-logo" alt="app-logo"
-      /> </a>
+<nav id="navigation" class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" class="app-logo" alt="app-logo"
+    /> </a>
+  </div>
+  <div class="col-lg-5 col-md-5 col-sm-11 swift-main">
+    Swift list</div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="nav-item nav-link active text-right"
+            href="index.html"
+            >Feture's</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link text-right" href="about.html"
+            >About Us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link text-right" href="contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
     </div>
-    <div class="col-lg-5 col-md-5 col-sm-11 swift-main">
-      Swift list</div>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              class="nav-item nav-link active text-right"
-              href="index.html"
-              >Feture's</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-right" href="about.html"
-              >About Us</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-right" href="contact.html"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    </div>
-  </nav>
+  </div>
+  </div>
+</nav>
 
-   <!-- Hero section-->
-  <div class="row">
-  <div class="col-lg-12 col-md-12 col-sm-12 button-z" id="myweirdshape"> 
-    <div class="container-fluid hero-header">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 "> 
-          <div class="hero-text">
-          <h2>Unique ways to create shopping lists  and keep track of your preferred items.</h2>
-        </div>
-        <div class="buttons">
-        <button class="learn-more1">
-          <a href="https://play.google.com/store/"></a>
-        </button>
-        <button class="learn-more2">
-          <a href="https://www.apple.com/app-store/"></a>
-        </button>
-      </div>
-        </div>
-        <div class="col-lg-5 col-md-6 col-sm-12">
-          <img
-          src="images/X - mockup - black.png"
-            alt="app-hero-mockup"
-            class=" hero-image img-responsive img-left "
-          />
-        </div>
-      </div>
-    </div>
-  </div> 
- </div>
-
-  <div class="container-fluid feature-icon ">
-  
-    <div class="row section">
-      <h1 class=" padding-top-bottom" >Save time with feature’s that makes your shopping easy</h1>
-    </div>
+  <!-- Hero section-->
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 button-z" id="myweirdshape"> 
+  <div class="container-fluid hero-header">
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 section">
-        <img
-        src="images/image 20.png"
-          alt="app-hero-mockup"
-          class="swicon icon-1"
-        />
-        <p>Search, Scan or Speak!</p>
+      <div class="col-lg-6 col-md-6 col-sm-12 "> 
+        <div class="hero-text">
+        <h2>Unique ways to create shopping lists  and keep track of your preferred items.</h2>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 ">
-        <img
-        src="images/Group 132.png"
-          alt="app-hero-mockup"
-          class="swicon icon-2 "
-        />
-        <p>Import Recipes!</p>
+      <div class="buttons">
+      <button class="learn-more1">
+        <a href="https://play.google.com/store/"></a>
+      </button>
+      <button class="learn-more2">
+        <a href="https://www.apple.com/app-store/"></a>
+      </button>
+    </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 ">
+      <div class="col-lg-5 col-md-6 col-sm-12">
         <img
-        src="images/Group.png"
+        src="images/hero-mock.png"
           alt="app-hero-mockup"
-          class="swicon icon-3"
+          class=" hero-image img-responsive img-left "
         />
-        <p>Get a  Route!</p>
       </div>
     </div>
-  </div>  
+  </div>
+</div> 
+</div>
+
+<div class="container-fluid feature-icon ">
+
+  <div class="row section">
+    <h1 class=" padding-top-bottom" >Save time with feature’s that makes your shopping easy</h1>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 section">
+      <img
+      src="images/image 20.png"
+        alt="app-hero-mockup"
+        class="swicon icon-1"
+      />
+      <p>Search, Scan or Speak!</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 ">
+      <img
+      src="images/Group 132.png"
+        alt="app-hero-mockup"
+        class="swicon icon-2 "
+      />
+      <p>Import Recipes!</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 ">
+      <img
+      src="images/Group.png"
+        alt="app-hero-mockup"
+        class="swicon icon-3"
+      />
+      <p>Get a  Route!</p>
+    </div>
+  </div>
+</div>  
 
 
 <div class="container-fluid">
-  <div class="orange-gradient padding-left-right">
-    <div class="row m200">
+<div class="orange-gradient padding-left-right">
+  <div class="row m200">
+    <div class="col-lg-5 col-md-5 col-sm-12">
+      <img
+      src="images/shopping-list-mock.png"
+        alt="app-hero-mockup"
+        class="img-responsive img-left"
+      />
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-12">
+      <div class="feature-text">
+      <h1>Shopping Lists</h1>
+      <p>See which stores carry the items on your shopping list. You can share lists with friends and family and keep a track of your preferred items.</p>
+      <div class="bullets">
+        <ul>
+          <li><i class="fas fa-barcode icon-purple"></i>Scan a barcode</li>
+          <li><i class="fas fa-plus-circle icon-purple"></i>Add items to a list by searching a store</li>
+          <li><i class="fas fa-microphone icon-purple"></i>Voice Integration</li>
+          <li><i class="fas fa-star icon-purple"></i>Favorite an item</li>
+          <li><i class="fas fa-share-square icon-purple"></i>Share your List</li>
+          <li> <i class="fas fa-folder-plus icon-purple"></i>Seperate it through Folders</li>
+          <li><i class="fas fa-check-circle icon-purple"></i>Check off items as you shop</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class=" white padding-left-right">
+  <div class="row">
+    <div class="col-lg-7 col-md-7 col-sm-12">
+      <div class="feature-text">
+      <h1>Recipes</h1>
+      <p>Swift List helps you to organize your recipes and allows you to easily import them through the web too.</p>
+      <div class="bullets">
+        <ul>
+          <li>  <i class="fas fa-globe icon-purple"></i>Import Recipes from web</li>
+          <li> <i class="fas fa-plus-circle icon-purple"></i>Create your own Recipe</li>
+          <li> <i class="fas fa-microphone icon-purple"></i>Voice Integration</li>
+          <li><i class="fas fa-star icon-purple"></i>Favorite Ingredients to Favorite List</li>
+
+          <li><i class="fas fa-list-alt icon-purple"></i>Add ingredients to any List</li>
+          <li> <i class="fas fa-share-square icon-purple"></i>Share your Recipe</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-5 col-md-5 col-sm-12">
+    <img
+    src="images/recipes-mock.png"
+      alt="app-hero-mockup"
+      class="img-responsive img-left"
+    />
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+  <div class=" purple-gradient padding-left-right">
+    <div class="row">
       <div class="col-lg-5 col-md-5 col-sm-12">
         <img
-        src="images/X - mockup - black.png"
+        src="images/routes-mock.png"
           alt="app-hero-mockup"
           class="img-responsive img-left"
         />
       </div>
       <div class="col-lg-7 col-md-7 col-sm-12">
         <div class="feature-text">
-        <h1>Shopping Lists</h1>
-        <p>See which stores carry the items on your shopping list. You can share lists with friends and family and keep a track of your preferred items.</p>
+        <h1>Routes & My stores</h1>
+        <p>Swift List optimizes your route according to preferred stores so that you can spend less time driving and make shopping swift!</p>
         <div class="bullets">
           <ul>
-            <li><i class="fas fa-barcode icon-purple"></i>Scan a barcode</li>
-            <li><i class="fas fa-plus-circle icon-purple"></i>Add items to a list by searching a store</li>
-            <li><i class="fas fa-microphone icon-purple"></i>Voice Integration</li>
-            <li><i class="fas fa-star icon-purple"></i>Favorite an item</li>
-            <li><i class="fas fa-share-square icon-purple"></i>Share your List</li>
-            <li> <i class="fas fa-folder-plus icon-purple"></i>Seperate it through Folders</li>
-            <li><i class="fas fa-check-circle icon-purple"></i>Check off items as you shop</li>
+            <li><i class="fas fa-plus-circle icon-orange"></i>Add nearby stores to your list</li>
+            <li><i class="fas fa-cart-arrow-down icon-orange"></i>Check if products are in stock or out of stock at your preferred stores</li>
+            <li><i class="fas fa-store icon-orange"></i>Google/Apple Map integration</li>
+            <li><i class="fas fa-map-marker-alt icon-orange"></i>Get a single route or multiple routes based on your list</li>
+            <li><i class="fas fa-check-circle icon-orange"></i>Check off items as you shop</li>
           </ul>
         </div>
       </div>
@@ -181,211 +242,151 @@
   </div>
 </div>
 
+  <!-- Mockup layout-->
 <div class="container-fluid">
-  <div class=" white padding-left-right">
-    <div class="row">
-      <div class="col-lg-7 col-md-7 col-sm-12">
-        <div class="feature-text">
-        <h1>Recipes</h1>
-        <p>Swift List helps you to organize your recipes and allows you to easily import them through the web too.</p>
-        <div class="bullets">
-          <ul>
-            <li>  <i class="fas fa-globe icon-purple"></i>Import Recipes from web</li>
-            <li> <i class="fas fa-plus-circle icon-purple"></i>Create your own Recipe</li>
-            <li> <i class="fas fa-microphone icon-purple"></i>Voice Integration</li>
-            <li><i class="fas fa-star icon-purple"></i>Favorite Ingredients to Favorite List</li>
-  
-            <li><i class="fas fa-list-alt icon-purple"></i>Add ingredients to any List</li>
-            <li> <i class="fas fa-share-square icon-purple"></i>Share your Recipe</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-5 col-md-5 col-sm-12">
-      <img
-      src="images/X - mockup - black.png"
-        alt="app-hero-mockup"
-        class="img-responsive img-left"
-      />
-    </div>
-  </div>
-  </div>
-</div>
-  
-  <div class="container-fluid">
-    <div class=" purple-gradient padding-left-right">
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-12">
-          <img
-          src="images/X - mockup - black.png"
-            alt="app-hero-mockup"
-            class="img-responsive img-left"
-          />
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-12">
-          <div class="feature-text">
-          <h1>Routes & My stores</h1>
-          <p>Swift List optimizes your route according to preferred stores so that you can spend less time driving and make shopping swift!</p>
-          <div class="bullets">
-            <ul>
-              <li><i class="fas fa-plus-circle icon-orange"></i>Add nearby stores to your list</li>
-              <li><i class="fas fa-cart-arrow-down icon-orange"></i>Check if products are in stock or out of stock at your preferred stores</li>
-              <li><i class="fas fa-store icon-orange"></i>Google/Apple Map integration</li>
-              <li><i class="fas fa-map-marker-alt icon-orange"></i>Get a single route or multiple routes based on your list</li>
-              <li><i class="fas fa-check-circle icon-orange"></i>Check off items as you shop</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-  
-   <!-- Mockup layout-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-    <img
-          src="images/Layout 8.svg"
-          alt="app-mockup-mix"
-          class="mockup-mix"/>
-  </div>
-</div>
-</div>
-
- <!-- Testimonials-->
-<div class="container-fluid">
-  <div class="row align-center">
-    <h1>What people are saying about Swift list</h1>
-  </div>
-    <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="testim-text">
-      <img
-      src="images/fa-solid_quote-right.png"
-      alt="app-mockup-mix"
-      class="quote1"/>
-      <p>This Swift List is like a friend that I go shopping with. It is very easy to use. I like that I can add multiple ingredients at the same time. The scan feature is great!
-      </p>
-      <img
-      src="images/fa-solid_quote-left.png"
-      alt="app-mockup-mix"
-      class="quote2"/>
-      <h6>Eileen Mart</h6>
-
-            <!-- <a  href="#"><i class="fas fa-angle-left"></i></a> -->
-            <p> <a href="#"><i class="fas fa-chevron-left"></i></a>
-            <a href="#"><i class="fas fa-chevron-right"></i></a></p>
-              <!-- <a href="#"><i class="fas fa-angle-right"></i></a> -->
-            </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="testim-image">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
   <img
-        src="images/user-image1.png"
+        src="images/Layout 8.svg"
         alt="app-mockup-mix"
-        class="user-image"/>
-</div>
+        class="mockup-mix"/>
 </div>
 </div>
 </div>
 
+<!-- Testimonials-->
+<div class="container-fluid">
+<div class="row align-center">
+  <h1>What people are saying about Swift list</h1>
+</div>
+  <div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="testim-text">
+    <img
+    src="images/fa-solid_quote-right.png"
+    alt="app-mockup-mix"
+    class="quote1"/>
+    <p>This Swift List is like a friend that I go shopping with. It is very easy to use. I like that I can add multiple ingredients at the same time. The scan feature is great!
+    </p>
+    <img
+    src="images/fa-solid_quote-left.png"
+    alt="app-mockup-mix"
+    class="quote2"/>
+    <h6>Eileen Mart</h6>
 
- <!-- Footer-->
-<div id="footer-nav" class="container-fluid-footer hero-footer ">
-  <div class="row">
-      <div class="col-lg-6 col-md-9 col-sm-12 ">
-      
-      </div>
-      <div class="col-lg-6 col-md-9 col-sm-12 footer-button-z">
-          <h2>Try for free</h2>
-          <button class="learn-more1">
-              <a href="https://play.google.com/store/"></a>
-            </button>
-            <button class="learn-more2">
-              <a href="https://www.apple.com/app-store/"></a>
-            </button>
-      </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-md-9 col-sm-12 ">
-      <div class="newslater">
-        
-      <h2>Subscribe to our newsletter and be the first to know about our updates</h2>
-     
-      <form class="form-inline">
-        <div class="input-group">
-          <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-          <div class="input-group-btn">
-            <button type="button" class="btn btn-danger">Subscribe</button>
+          <!-- <a  href="#"><i class="fas fa-angle-left"></i></a> -->
+          <p> <a href="#"><i class="fas fa-chevron-left"></i></a>
+          <a href="#"><i class="fas fa-chevron-right"></i></a></p>
+            <!-- <a href="#"><i class="fas fa-angle-right"></i></a> -->
           </div>
-        </div>
-      </form>
-
-    </div>
-    </div>
-    <div class="col-lg-6 col-md-9 col-sm-12">
   </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 ">
+    <div class="testim-image">
+<img
+      src="images/user-image1.png"
+      alt="app-mockup-mix"
+      class="user-image"/>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Footer-->
+<div id="footer-nav" class="container-fluid-footer hero-footer ">
+<div class="row">
+    <div class="col-lg-6 col-md-9 col-sm-12 ">
+    
     </div>
-    <div class="row">
-    <div class="col-lg-8 col-md-9 col-sm-12 ">
-      <div class="">
+    <div class="col-lg-6 col-md-9 col-sm-12 footer-button-z">
+        <h2>Try for free</h2>
+        <button class="learn-more1">
+            <a href="https://play.google.com/store/"></a>
+          </button>
+          <button class="learn-more2">
+            <a href="https://www.apple.com/app-store/"></a>
+          </button>
+    </div>
+</div>
+<div class="row">
+  <div class="col-lg-6 col-md-9 col-sm-12 ">
+    <div class="newslater">
       
+    <h2>Subscribe to our newsletter and be the first to know about our updates</h2>
+    
+    <form class="form-inline">
+      <div class="input-group">
+        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-danger">Subscribe</button>
+        </div>
       </div>
-    </div>
-    <div class="col-lg-4 col-md-9 col-sm-12">
-      <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              class="nav-item nav-link active text-right"
-              href="/index.html"
-              >Features</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-right" href=""
-              >About Us</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-right" href=""
-              >Contact</a
-            >
-          </li>
-        </ul>
-    </div>
+    </form>
+
+  </div>
+  </div>
+  <div class="col-lg-6 col-md-9 col-sm-12">
+</div>
   </div>
   <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 ">
-        <div class="footer-center align-center">
-        <p class="swift">
-            Swift List
-        </p>
-        <p>
-          Copyright © 2021. All rights reserved.
-      </p>
-        </div>
-      </div>
+  <div class="col-lg-8 col-md-9 col-sm-12 ">
+    <div class="">
+    
+    </div>
   </div>
+  <div class="col-lg-4 col-md-9 col-sm-12">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="nav-item nav-link active text-right"
+            href="/index.html"
+            >Features</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link text-right" href=""
+            >About Us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link text-right" href=""
+            >Contact</a
+          >
+        </li>
+      </ul>
+  </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 ">
+      <div class="footer-center align-center">
+      <p class="swift">
+          Swift List
+      </p>
+      <p>
+        Copyright © 2021. All rights reserved.
+    </p>
+      </div>
+    </div>
+</div>
 
-  <!-- <div class="back-to-top" style="display: none; opacity: 1;">
-		<a class="semplice-event" data-event-type="helper" data-event="scrollToTop"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<!-- <div class="back-to-top" style="display: none; opacity: 1;">
+  <a class="semplice-event" data-event-type="helper" data-event="scrollToTop"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
 <g id="Ebene_3">
 </g>
 <g>
-	<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon>
+<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon>
 </g>
 </svg>
 </a>
-	</div> -->
+</div> -->
 
-  <!-- <div id="footer-nav"></div> -->
-  <!--  -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="/js/contact.js"></script>
-  <script src="/js/index.js"></script>
-  <script src="/js/app.js"></script>
+<!-- <div id="footer-nav"></div> -->
+<!--  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="/js/contact.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>

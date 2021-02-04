@@ -1,49 +1,43 @@
-body{
-    margin:0px!important;
-    font-family: Arial Rounded MT Bold, Helvetica Rounded,Arial,sans-serif; 
+body {
+  margin: 0px !important;
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
 }
 #navigation {
-    display: flex;
-   
+  display: flex;
 }
-.padding200{
+.padding200 {
   margin-left: 200px;
 }
-  .app-logo{
-      height:50px;
-      
-  }
-  .swift-main{
-    color:#725ABD;
-    font-size:48px;
-    font-family: 'Damion', cursive;
-  }
-  .navbar{
-      width: 100%;
-      /* margin-left:200px;
-      margin-right:200px; */
+.app-logo {
+  height: 50px;
+}
+.swift-main {
+  color: #725abd;
+  font-size: 48px;
+  font-family: "Damion", cursive;
+}
+.navbar {
+  width: 100%;
+}
+#navbarNav {
+  align-content: flex-end;
+}
 
-    }
-    #navbarNav{
-     align-content: flex-end;
-    }
-  
-    .navbar-nav a{
-      color:#090909 !important;
-    }
-    .navbar-nav a:hover{
-      color: #725ABD!important;
-    }
-    
-    /* *:focus {
+.navbar-nav a {
+  color: #090909 !important;
+}
+.navbar-nav a:hover {
+  color: #725abd !important;
+}
+
+/* *:focus {
       outline: none;
       border: 1px solid blue;
       border-radius: 10px;
       box-shadow: (0 0 0 3px #271458);
     } */
-    @media only screen and (max-width: 900px) {
-      
-      .swift-main{
-      display: none;
-      }
-      }
+@media only screen and (max-width: 900px) {
+  .swift-main {
+    display: none;
+  }
+}
